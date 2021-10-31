@@ -1,0 +1,195 @@
+/*{
+	margin: 0;
+	padding: 0;
+}*/
+body{
+	background-color: darkslategrey;
+	color: #fff; /*R--G--B*/
+
+	font-family: Tahoma,Geneva,sans-serif;
+	font-size: 18px;
+	font-weigth: 500;
+
+	/*same as above*/
+
+	font: normal 18px Tahoma,Geneva,sans-serif;
+
+	line-height: 1.5em;
+	margin: 0;
+}
+
+a{
+	/*text-decoration: none;*/
+	color: #000;
+}
+
+a:hover{
+	color: blue;
+}
+
+a:active{
+	color: palevioletred;
+}
+
+a:visited{
+	color: greenyellow;
+}
+
+
+
+.button{
+	background-color: skyblue;
+	border: none;
+}
+
+.total-body{
+	width: 90%;
+	margin: auto;
+}
+
+.block{
+	margin-top: 20px;
+	font-size: 14px;
+	float: left;
+	width: 33.3%;
+	border: 1px dashed;
+	box-sizing: border-box;
+
+}
+
+.clr{
+	clear: both;
+}
+
+.box-1{
+	background-color: darkolivegreen;
+	color: #000088;
+
+	border-right: 3px burlywood solid;
+	border-left: 3px burlywood solid;
+	border-top: 3px burlywood solid;
+	border-bottom: 3px burlywood solid;
+
+	/*same as above*/
+
+	border:  5px burlywood solid;
+	border-width: 3px;
+	border-bottom-width: 6px;
+	border-top-style: dashed;
+
+	padding-top: 20px;
+
+	padding: 20px;
+
+	margin-top: 15px;
+}
+
+.box-1 h2{
+	font-family: fantasy;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	word-spacing: 0.1em;
+	color: #0fa;
+
+}
+
+.box-2{
+	border: 2px red dashed;
+	padding: 1px;
+	margin-top: 10px;
+	border-radius: 40px;
+	color: black;
+	font-weight: 900;
+	background-image: url('images/moyai_bg.jpg');
+}
+
+.box-2 h3{
+	text-align: center;
+	color: lightblue;
+}
+
+.box-2 ul{
+	padding: 20px;
+	list-style: none;
+}
+
+.box-3 h3{
+	color: darksalmon;
+	text-align: center;
+}
+
+.form-1{
+	padding: 20px;
+}
+
+.form-1 label{
+	display: block;
+}
+
+.form-1 input[type="text"],.form-1 textarea{
+	padding: 5px;
+	width: 70%;
+}
+
+.disc{
+	background-color: white;
+	position: fixed;
+	top: 700px;
+	font-size: 14px;
+}
+
+#main-text1{
+	float: left;
+	width: 60%;
+	font-size: 12px;
+	box-sizing: border-box;
+}
+
+#side-text1{
+	float: right;
+	width: 40%;
+	font-size: 12px;
+	box-sizing: border-box;
+	padding-top: 10px;
+	background-color: black;
+	margin-top: 35px;
+	border-radius: 20px;
+}
+
+.p-box{
+	margin-left: auto ;
+    margin-right: auto ;
+	color: skyblue;
+	width: 90%;
+	height: 650px;
+	border: 1px black solid;
+	margin-top: 40px;
+	position: relative;
+	background-image: url('images/sample_sv.png');
+	background-repeat: no-repeat;
+}
+
+.p-box h3{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border: 3px seagreen dashed;
+}
+
+.p-box h5{
+	position: absolute;
+	left: 60%;
+}
+
+.rules li:first-child{
+	background: red;
+}
+
+.rules li:last-child{
+	background: blueviolet;
+}
+
+.rules li:nth-child(2){
+	background: darkolivegreen;
+}
